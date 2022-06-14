@@ -143,11 +143,11 @@ body:JSON.stringify(user)
                 <th><Typography id="outlined-basic" placeholder="Id" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
                 <th><Button onClick={() =>updateUser()} style={{ }}>Update</Button>
                 <Button onClick={() => setVal(() => "")}>Cancel</Button></th>
-                <th><TextField id="outlined-basic" onChange={(e) => { setName(e.target.value) }} value={name} placeholder="Name" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
-                <th><TextField id="outlined-basic" onChange={(e) => { setUserName(e.target.value) }} value={username} placeholder="UserName"  style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
-                <th><TextField id="outlined-basic" onChange={(e) => { setPhone(e.target.value) }} value={phone} placeholder="Phone" name="phone" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
-                <th><TextField id="outlined-basic" onChange={(e) => { setEmail(e.target.value) }} value={email} placeholder="Email" name="email" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
-                <th><TextField id="outlined-basic" onChange={(e) => { setWebsite(e.target.value) }} value={website} placeholder="Website" name="website" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
+                <th><TextField id="outlined-basic" required onChange={(e) => { setName(e.target.value) }} value={name}  placeholder="Name" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
+                <th><TextField id="outlined-basic" required onChange={(e) => { setUserName(e.target.value) }} value={username} placeholder="UserName"  style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
+                <th><TextField id="outlined-basic" required onChange={(e) => { setPhone(e.target.value) }} value={phone} placeholder="Phone" name="phone" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
+                <th><TextField id="outlined-basic" required onChange={(e) => { setEmail(e.target.value) }} value={email} placeholder="Email" name="email" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
+                <th><TextField id="outlined-basic" required onChange={(e) => { setWebsite(e.target.value) }} value={website} placeholder="Website" name="website" style={{ width: "167.5px", padding: "2px 2px 2px 2px" }} /></th>
               </tr>
             </thead>
             <tbody>

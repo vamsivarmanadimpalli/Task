@@ -18,11 +18,11 @@ const AddId = ({ onAdd, handleCloser }) => {
         <div className="buttonside"><h3>Add User</h3>
           <Button onClick={handleCloser}>X</Button></div>
         <div className="inputcss">
-          <TextField id="outlined-basic" placeholder="Name" name="name" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
-          <TextField id="outlined-basic" placeholder="UserName" name="username" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
-          <TextField id="outlined-basic" placeholder="Phone" name="phone" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
-          <TextField id="outlined-basic" placeholder="Email" name="email" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
-          <TextField id="outlined-basic" placeholder="Website" name="website" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
+          <TextField id="outlined-basic" required placeholder="Name" name="name" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
+          <TextField id="outlined-basic" required placeholder="UserName" name="username" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
+          <TextField id="outlined-basic" required placeholder="Phone" name="phone" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
+          <TextField id="outlined-basic" required placeholder="Email" name="email" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
+          <TextField id="outlined-basic" required placeholder="Website" name="website" style={{ width: "400px", padding: "2px 2px 2px 2px" }} />
         </div>
         <DialogActions>
           <button onClick={handleCloser} >X Cancel</button>
